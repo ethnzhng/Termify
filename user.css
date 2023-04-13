@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	font-family: 'Roboto Mono', monospace !important;
+}
+
+.ellipsis-one-line {
+	font-family: 'Roboto Mono' !important;
+}
+
+/* Remove top gradient */
+.main-entityHeader-backgroundColor, .main-actionBarBackground-background, .main-home-homeHeader {
+	display: none !important;
+}
+
+.main-topBar-background {
+	background-color: var(--background-base) !important;
+}
+
+/* Sidebar icons */
+.collection-icon, .premiumSpotifyIcon, .search-icon {
+	color: rgba(var(--spice-text),.7);
+}
+
+/* Borders around cards and dividers*/
+.main-card-card {
+	border: 1px solid var(--spice-text) !important;
+}
+
+.main-rootlist-rootlistDivider {
+	background-color: var(--spice-text) !important;
+	margin: 8px 0 !important;
+}
+
+.main-nowPlayingBar-container {
+	border-top: 1px solid var(--spice-text) !important;
+}
+
+.Root__nav-bar {
+	border-right: 1px solid var(--spice-text);
+}
+
+.x-categoryCard-CategoryCard {
+	border: 1px solid var(--spice-text) !important;
+	border-radius: 0px !important;
+	background-color: black !important;
+}
+
+.main-card-card {
+	border-radius: 0 !important;
+}
+
+.view-homeShortcutsGrid-shortcut {
+	background-color: var(--spice-background) !important;
+	border: 1px solid var(--spice-text) !important;
+	border-radius: 0px !important;
+}
+
+.main-trackList-trackListHeaderRow {
+	border-bottom: 1px dashed var(--spice-text) !important;
+}
+
+.main-trackList-trackListHeaderStuck.main-trackList-trackListHeader {
+	border-bottom: 0 !important;
+}
+
+
+
+/* Additional text & icons */
+.TypeElement-mesto-textSubdued-type {
+	color: var(--spice-text-subdued) !important;
+}
+
+.main-tag-container {
+	background-color: var(--spice-text) !important;
+}
+
+.TypeElement-mesto-type {
+	color: var(--spice-text) !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-icon, .main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-collectionLinkText {
+	opacity: 1 !important;
+}
+
+.UyzJidwrGk3awngSGIwv, .poz9gZKE7xqFwgk231J4, .xWm_uA0Co4SXVxaO7wlB {
+	color: var(--spice-text) !important;
+}
+
+.Button-sm-16-buttonTertiary-condensedAll-useBrowserDefaultFocusStyle {
+	color: var(--spice-text) !important;
+}
+
+.playlist-item__img.folder {
+	background-color: var(--spice-text) !important;
+}
+
+.playlist-item__img.folder svg {
+	fill: var(--spice-background) !important;
+}
+
+.main-createPlaylistButton-button {
+	opacity: 1 !important;
+}
+
+.TypeElement-finale-textSubdued-type {
+	color: var(--spice-text) !important;
+}
+
+button {
+	color: var(--spice-text) !important;
+}
+
+.main-playPauseButton-button {
+	color: var(--spice-sidebar) !important;
+}
+
+
+
+/* Scroll Bar */
+.os-theme-spotify>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle {
+	background: var(--spice-text) !important;
+	max-width: 5px !important;
+}
+
+.spotify__os--is-macos .os-theme-spotify>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle {
+	border-radius: 0px !important;
+}
+
+
+/* Progress bar */
+.x-progressBar-progressBarBg, .x-progressBar-sliderArea {
+	border-radius: 0px !important;
+	height: auto !important;
+	border: 1px solid var(--spice-text) !important;
+	background-color: var(--spice-player) !important;
+}
+
+.progress-bar {
+	--progress-bar-radius: 0px !important;
+}
+

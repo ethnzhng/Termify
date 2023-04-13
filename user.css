@@ -140,3 +140,7 @@ button {
 	--progress-bar-radius: 0px !important;
 }
 
+/* Toggles */
+.x-toggle-indicator {
+	background: var(--spice-misc) !important;
+}

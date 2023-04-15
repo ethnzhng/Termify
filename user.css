@@ -168,3 +168,8 @@ button {
 	border-radius: 0 !important;
 	background: var(--spice-background) !important;
 }
+
+/* Marketplace button */
+.button-module__button___hf2qg_marketplace {
+	background-color: var(--spice-main) !important;
+}

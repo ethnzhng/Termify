@@ -19,3 +19,8 @@ Install [Spicetify CLI](https://github.com/spicetify/spicetify-cli): \
 #### Amber
 `spicetify config current_theme Termify color_scheme Amber && spicetify apply`
 ![Amber](screenshots/amber.png)
+
+#### Pink
+`spicetify config current_theme Termify color_scheme Pink && spicetify apply`
+
+![Pink](screenshots/pink.png)

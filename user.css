@@ -37,13 +37,10 @@
 
 .Root__nav-bar {
 	border-right: 2px solid var(--spice-text);
+	border-radius: 0px;
 }
 
 .Root__main-view {
-    border-radius: 0px;
-}
-
-.Root__nav-bar {
     border-radius: 0px;
 }
 
@@ -200,6 +197,7 @@ body::before {
 	);
 	pointer-events: none;
 	z-index: 9999;
+	will-change: transform;
 	animation: scanline 8s linear infinite;
 }
 

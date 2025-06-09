@@ -221,7 +221,10 @@ body::after {
 .main-view-container {
 	background: radial-gradient(
 		circle at center,
-		rgba(51, 255, 51, 0.05) 0%,
-		rgba(0, 0, 0, 0.95) 100%
+		color-mix(in srgb, var(--spice-text) 4%, transparent) 0%,
+		color-mix(in srgb, var(--spice-text) 2%, transparent) 30%,
+		color-mix(in srgb, var(--spice-text) 1%, transparent) 60%,
+		color-mix(in srgb, var(--spice-text) 0.5%, transparent) 85%,
+		rgba(0, 0, 0, 0.98) 100%
 	) !important;
 }

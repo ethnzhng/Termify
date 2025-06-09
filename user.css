@@ -33,11 +33,19 @@
 }
 
 .main-nowPlayingBar-container {
-	border-top: 1px solid var(--spice-text) !important;
+	border-top: 2px solid var(--spice-text) !important;
 }
 
 .Root__nav-bar {
-	border-right: 1px solid var(--spice-text);
+	border-right: 2px solid var(--spice-text);
+}
+
+.Root__main-view {
+    border-radius: 0px;
+}
+
+.Root__nav-bar {
+    border-radius: 0px;
 }
 
 .x-categoryCard-CategoryCard {

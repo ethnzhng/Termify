@@ -138,8 +138,7 @@ button {
 .x-progressBar-progressBarBg,
 .x-progressBar-sliderArea {
 	border-radius: 0px !important;
-	height: auto !important;
-	border: 1px solid var(--spice-text) !important;
+	border: 1px dotted var(--spice-text) !important;
 	background-color: var(--spice-player) !important;
 }
 
@@ -166,4 +165,56 @@ button {
 /* Marketplace button */
 .button-module__button___hf2qg_marketplace {
 	background-color: var(--spice-main) !important;
+}
+
+/* Add animated scanlines */
+@keyframes scanline {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200%;
+	background: repeating-linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.15),
+		rgba(0, 0, 0, 0.15) 1px,
+		transparent 1px,
+		transparent 2px
+	);
+	pointer-events: none;
+	z-index: 9999;
+	animation: scanline 8s linear infinite;
+}
+
+/* Add noise effect */
+body::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.5' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+	opacity: 0.1;
+	pointer-events: none;
+	z-index: 9998;
+}
+
+/* Add CRT screen effect */
+.main-view-container {
+	background: radial-gradient(
+		circle at center,
+		rgba(51, 255, 51, 0.05) 0%,
+		rgba(0, 0, 0, 0.95) 100%
+	) !important;
 }
